@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}Mail{% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'mail/styles.css /' %}">
+        <a link rel="stylesheet" href="styles.css">
+
+        {% block script %}
+        {% endblock %}
+        <style>
+             body{
+                padding-top: 100PX;
+                color: orange;
+                text-align: center;
+                align-items: center;
+                background-color: rgb(153, 137, 137);
+               
+             }
+
+           
+           
+
+        </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            {% block body %}
+            {% endblock %}
+        </div>
+        
+    </body>
+</html>

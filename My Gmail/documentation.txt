@@ -1,0 +1,9 @@
+How to use.
+-Save this project folder to a specific location in your pc
+-In your powershell run this command “python manage.py runserver”
+Your project is ready to run in your server.
+
+About
+ -To modify the databases. Use “models.py” file. Here you can add or delete  a database connected tou the website
+-Manage the page navigations in urls.py
+
